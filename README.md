@@ -10,5 +10,4 @@
  * [Email and Google One touch Login/Sign Up](https://firebase.google.com/products/auth/)
  ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1.png){:height=400px, :width=400px}|![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/2.png width=40px height=400px)
 
-
-<a href="url"><img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1.png" align="left" height="600" width="400" ></a>
+![alt-text-1](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1.png "title-1") ![alt-text-2](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1.png "title-2")
