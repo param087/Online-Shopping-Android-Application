@@ -8,6 +8,5 @@
   
 ## Application features
  * [Email and Google One touch Login/Sign Up](https://firebase.google.com/products/auth/)
- ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1.png){:height=400px, :width=400px}|![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/2.png width=40px height=400px)
 
-![alt-text-1](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1.png "title-1") ![alt-text-2](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1.png "title-2")
+![alt-text-1](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1.png "title-1")|![alt-text-2](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1.png "title-2")
