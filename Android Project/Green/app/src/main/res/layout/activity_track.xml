@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.param.green.TrackActivity">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center"
+                android:id="@+id/tv_tracker_detail"
+                android:textSize="22dp"
+                tools:text="hi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center"
+                android:id="@+id/tv_tracker_detail_date"
+                android:textSize="22dp"
+                tools:text="hi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:progress="99"
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:thumb="@drawable/ic_local_shipping_black_24dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="50dp"
+                android:paddingTop="20dp"
+
+
+                />
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/bt_tarcker_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FF9800"
+                android:textColor="#ffffff"
+                android:text="Cancle order"/>
+
+
+        </LinearLayout>
+
+</LinearLayout>
+

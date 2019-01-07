@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context="com.example.param.green.AccountActivity">
+
+
+
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/ll_editable"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <ScrollView
+                android:id="@+id/sv_editable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_enter_name"
+                                android:text="@string/enter_name"
+                                android:textSize="20dp"/>
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_enter_name"
+                                android:textSize="20dp"/>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_enter_address"
+                                android:text="@string/enter_address"
+                                android:textSize="20dp"/>
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_enter_address"
+                                android:inputType="textPostalAddress"
+                                android:textSize="20dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_enter_landmark"
+                                android:text="@string/enter_landmark"
+                                android:textSize="20dp"
+                                />
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_enter_landmark"
+                                android:inputType="textPostalAddress"
+                                android:textSize="20dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_enter_city"
+                                android:text="@string/enter_city"
+                                android:textSize="20dp"
+                                />
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_enter_city"
+                                android:inputType="textPostalAddress"
+                                android:textSize="20dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_enter_pincode"
+                                android:text="@string/enter_pincode"
+                                android:textSize="20dp"
+                                />
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_enter_pincode"
+                                android:inputType="number"
+                                android:textSize="20dp"
+                                />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_enter_phoneno"
+                                android:text="@string/enter_phoneno"
+                                android:textSize="20dp"/>
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_enter_phoneno"
+                                android:inputType="phone"
+                                android:textSize="20dp"/>
+
+                            <Button
+                                android:id="@+id/bt_add_userdata"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="30dp"
+                                android:textColor="#ffffff"
+                                android:background="#FF9800"
+                                android:layout_gravity="bottom"
+                                android:text="submit"/>
+                    </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/ll_noneditable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <ScrollView
+                android:id="@+id/sv_noneditable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="#dcdcdc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_name2"
+                                    android:text="Name:"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"/>
+                                <TextView
+                                    android:padding="20dp"
+                                    android:textColor="#000000"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_name21"
+                                    android:textSize="20dp"/>
+
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_address2"
+                                    android:text="Address :"
+                                    android:textSize="20dp"/>
+                                <TextView
+                                    android:padding="20dp"
+                                    android:textColor="#000000"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_address21"
+                                    android:textSize="20dp"/>
+
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_landmark2"
+                                    android:text="Landmark:"
+                                    android:textSize="20dp"
+                                    />
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_landmark21"
+                                    android:textSize="20dp"
+                                    android:padding="20dp"
+                                    />
+
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_city2"
+                                    android:text="Your City:"
+                                    android:textSize="20dp"
+                                    />
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_city21"
+                                    android:textSize="20dp"
+                                    android:padding="20dp"
+                                    />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:textStyle="bold"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_pincode2"
+                                    android:text="Pincode:"
+                                    android:textSize="20dp"
+                                    />
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_pincode21"
+                                    android:textSize="20dp"
+                                    android:padding="20dp"
+                                    android:gravity="center"
+                                    />
+
+
+
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_phoneno2"
+                                    android:text="Phone No:"
+                                    android:textSize="20dp"/>
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:padding="20dp"
+                                    android:textColor="#000000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_enter_phoneno21"
+
+                                    android:textSize="20dp"/>
+
+                                <Button
+                                    android:textSize="24dp"
+                                    android:text="Update"
+                                    android:textColor="#ffffff"
+                                    android:background="#FF9800"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="40dp"
+                                    android:id="@+id/bt_update_userinfo"/>
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+
+</RelativeLayout>

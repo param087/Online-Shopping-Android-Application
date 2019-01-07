@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_margin="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:id="@+id/im_product"
+            android:layout_weight="3"
+            tools:background="@color/colorAccent"
+            />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:background="@color/colorPrimary"
+            tools:text="ITEM"
+            android:textSize="24dp"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:orientation="horizontal"
+            android:weightSum="2"
+            tools:background="#1affaa">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_mrp"
+                android:text="MRP"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_weight="0.2"
+                />
+
+            <TextView
+                android:id="@+id/tv_orignal_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                tools:text="orignal_mrp"
+                android:textColor="#afaaaf"
+
+                android:layout_weight="0.4"
+                />
+            <TextView
+                android:id="@+id/tv_discount_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:textSize="24dp"
+                tools:text="discount_mrp"
+                style="@style/Base.TextAppearance.AppCompat"
+                />
+            <TextView
+                android:id="@+id/tv_discount_precentage"
+                android:layout_weight="0.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ff0000"
+                tools:text="30%"
+                />
+        </TableRow>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#d3d3d3" />
+</LinearLayout>

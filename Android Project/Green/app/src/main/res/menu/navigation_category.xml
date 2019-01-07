@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/nav_fruits" android:title="Fruits"/>
+
+    <item android:id="@+id/nav_vegitables" android:title="Vegetables"/>
+
+    <item android:id="@+id/nav_glocery" android:title="Glocery"/>
+
+    <item android:id="@+id/nav_nonveg" android:title="Non-Veg"/>
+
+</menu>

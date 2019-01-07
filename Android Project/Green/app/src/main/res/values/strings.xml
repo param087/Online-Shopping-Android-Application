@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Green Basket</string>
+    <string name="enter_email">Enter the Email Address:</string>
+    <string name="enter_password">Enter the password:</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="account_activity">Account Detail</string>
+    <string name="enter_name">Enter Name:</string>
+    <string name="enter_address">Enter Address:</string>
+    <string name="enter_phoneno">Enter PhoneNo:</string>
+    <string name="enter_landmark">Enter Landmark :</string>
+    <string name="enter_city">Enter City :</string>
+    <string name="enter_pincode">Enter Pincode:</string>
+    <string name="enter_landmark1">Enter Landmark :</string>
+</resources>

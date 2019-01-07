@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Enter amount "
+            android:layout_weight="3"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_weight="2"
+            android:id="@+id/et_amount_detail"
+            android:textSize="18dp"
+            android:layout_gravity="end"
+            android:inputType="number"
+            tools:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"/>
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/rg_payment_detail"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_cod_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash on delivery"
+            android:textSize="18dp"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/rb_online_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="online paymet"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:padding="4dp">
+
+        <Button
+            android:layout_margin="4dp"
+            android:id="@+id/bt_cancle_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="cancle"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+           />
+        <Button
+            android:layout_margin="4dp"
+            android:id="@+id/bt_submit_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="submit"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+/>
+    </LinearLayout>
+</LinearLayout>

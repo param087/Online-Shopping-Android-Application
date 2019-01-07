@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/nav_catergoryoption" android:icon="@drawable/ic_arrow_forward_black_24dp"
+                android:title="Category"/>
+        <item android:id="@+id/nav_backmenu" android:icon="@drawable/ic_arrow_back_black_24dp"
+                android:title="Back To menu" android:visible="false"/>
+
+        <item android:id="@+id/nav_home"  android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"/>
+        <item android:id="@+id/nav_my_account"  android:icon="@mipmap/ic_account_circle_black_24dp"
+            android:title="My account"/>
+        <item android:id="@+id/nav_order" android:icon="@mipmap/ic_shopping_cart_black_24dp"
+            android:title="My order"/>
+        <item android:id="@+id/nav_forum" android:icon="@drawable/ic_people_black_24dp"
+            android:title="Forum" />
+        <item android:id="@+id/nav_feedback" android:icon="@drawable/ic_near_me_black_24dp"
+                android:title="Feedback"/>
+        <item android:id="@+id/nav_logout" android:icon="@mipmap/ic_settings_power_black_24dp"
+            android:title="Log Out"/>
+
+
+        <item android:id="@+id/nav_fruits" android:title="Fruits" android:visible="false"/>
+
+        <item android:id="@+id/nav_vegitables" android:title="Vegitables" android:visible="false"/>
+
+        <item android:id="@+id/nav_glocery" android:title="Glocery" android:visible="false"/>
+
+        <item android:id="@+id/nav_nonveg" android:title="Non-Veg" android:visible="false"/>
+
+
+</menu>
