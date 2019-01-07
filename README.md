@@ -6,16 +6,17 @@
 ***
 # Detail Of App
   This is simple template to the online shopping User side application using google firebase platform. As most of time some function and template of online shopping application are remain same. This project just gives you the template, so any can be customized to their product need.
-  * App uses [firebase real-time database](https://firebase.google.com/products/realtime-database/) the store the user and company data
-  * [Firebase authentication](https://firebase.google.com/products/realtime-database/) to support email and google authentication and also fetch user name and detail from google is google allow.
+  * App uses [firebase real-time database](https://firebase.google.com/products/realtime-database/) to store the user and company data
+  * [Firebase authentication](https://firebase.google.com/products/realtime-database/) to support email and google authentication and also fetch user name and detail from google which google provide.
   * Cloud Message[https://firebase.google.com/products/cloud-messaging/]
   * User Detail and user detail modification as per user.
   * Chat forum.
   * CardView to display Items and their Detail.
   * Tracking the order.
-  * Order can be cash on delivary OR online Payment (But the online payment code is not provided at this time for security reasone but simple method to intergate online payment in india is by [instamojo payment getways](https://docs.instamojo.com/v1.1/page/devsupport-ai-android-integration) which as free setup charge ).
+  * Order can be cash on delivary OR online Payment (But the online payment code is not provided at this time for security reason but simple method to intergate online payment in india is by [instamojo payment getways](https://docs.instamojo.com/v1.1/page/devsupport-ai-android-integration) which has free setup charge ).
 ## About project Structure and future Enhancement
-   * user may not able compile the project in your android studio as google-servise.json file required for firebase access is not provided. You can follow firebase website and create database as per your need and database structure is provded in Images.
+   * user may not able compile the project in your android studio as google-servise.json file required for firebase access is not provided. You can follow firebase website and create database as per your need and database structure is provded in Images/database folder.
+   * Open Green folder in android studio (App developed in 2017 so some modification may be required)
    * You can develop application or web interface for supplier side database access.
   
 ## Application features
