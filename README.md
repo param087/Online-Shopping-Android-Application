@@ -9,15 +9,15 @@
 ## Application features
  * [Email and Google One touch Login/Sign Up](https://firebase.google.com/products/auth/)
 ***
-<img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1.png" align="left" height="500" width="300"><img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/2.png" height="500" width="300" align="right">
+    <img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1.png" align="left" height="500"         width="300"><img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/2.png" height="500"           width="300" align="right">
 ***
  * CardView And Search on [Firebase Real-Time database](https://firebase.google.com/products/realtime-database/)
 ***
- <img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/4.png"  height="500" width="300">
+    <img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/4.png"  height="500" width="300">
 ***
- * Menu
+ * Menu Bar
 ***
- <img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/7.png" align="left" height="500" width="300"><img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/8.png" height="500" width="300" align="right">
+    <img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/7.png" align="left" height="500"         width="300"><img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/8.png" height="500"           width="300" align="right">
 ***
  
 
