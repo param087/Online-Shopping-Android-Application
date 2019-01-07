@@ -18,10 +18,14 @@
 ***
  * Option Menu Bar
 ***
-     ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/7%20(Small)%20(Mobile).png)
-     ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/8%20(Small)%20(Mobile).png)
+      ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/7%20(Small)%20(Mobile).png)
+      ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/8%20(Small)%20(Mobile).png)
 ***
- 
+ * User detail And chat Forum
+***
+      ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/10%20(Small)%20(Mobile).png)
+      ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/11%20(Small)%20(Mobile).png)
+***
 
 
 
