@@ -9,15 +9,17 @@
 ## Application features
  * [Email and Google One touch Login/Sign Up](https://firebase.google.com/products/auth/)
 
-      ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1 (Small).png)![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/2.png)
+      ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/1%20(Small).png)
+      ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/2%20(Small).png)
 ***
  * CardView And Search on [Firebase Real-Time database](https://firebase.google.com/products/realtime-database/)
 
-   <img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/4.png"  height="500" width="300">
+      ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/4%20(Small).png)
 ***
- * Menu Bar
+ * Option Menu Bar
 ***
-   <img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/7.png" align="left" height="500"         width="300"><img src="https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/8.png" height="500"           width="300" align="right">
+      ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/7%20(Small).png)
+      ![image](https://github.com/param087/Online-Shopping-Android-Application/blob/master/Images/App/8%20(Small).png)
 ***
  
 
